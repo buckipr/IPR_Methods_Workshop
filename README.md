@@ -3,7 +3,7 @@ This folder includes materials presented at the IPR Methods Workshop
 
 # Fall 2020 Schedule
 
-* 09/10:  Using GitHub to Facilitate Reproducible Research
+* 09/10:  [Using GitHub to Facilitate Reproducible Research](https://github.com/buckipr/IPR_Methods_Workshop/blob/main/Fall_2020/09_10_github.pdf)
 * 09/17:  Dynamic Documents with R Markdown
 * 09/24:  Dynamic Documents with Stata (Session 1)
 * 10/01:  Dynamic Documents with Stata (Session 2)
