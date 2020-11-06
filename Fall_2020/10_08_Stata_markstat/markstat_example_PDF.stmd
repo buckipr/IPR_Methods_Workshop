@@ -1,0 +1,30 @@
+% Stata Markstat Example of PDF
+% Jason Thomas
+% `s c(current_date)`
+
+## Introduction
+
+Let us read the fuel efficiency data that is shipped with Stata
+
+    sysuse auto, clear
+
+
+## **Results**
+
+To study how fuel efficiency depends on weight it is useful to
+transform the dependent variable from "miles per gallon" to
+"gallons per 100 miles"
+
+    gen gphm = 100/mpg
+
+
+	
+We then obtain a more linear relationship
+
+    twoway scatter gphm weight || lfit gphm weight ///
+        , ytitle(Gallons per Mile) legend(off)
+    graph export auto.png, width(500) replace
+
+![Fuel Efficiency](auto.png)
+
+That's all for now!

@@ -1,0 +1,130 @@
+--- 
+title: Stata Markstat Example 
+subtitle: MS Word (docx)
+author:
+ - Jason Thomas
+ - Thomas Jason
+date: `s c(current_date)`
+---
+
+## Introduction
+
+This examples
+
+## Markdown
+
+Sections are created with # (top level), ## (second level).  Some additional examples:
+
+* bold text with **test**
+  + alternative __test__
+* italics with *test*
+  + alternative _test_
+* url [markstat](https://data.princeton.edu/stata/markdown)    
+* font for computer/Stata code `test`
+
+
+## Weaving in `Stata` code
+
+Use the `markstat` command
+
+
+`markstat using filename.stmd, output_format strict`
+
+where `output_format` can be
+
+* pdf
+* docx
+* slides(theme) for html slides
+* beamer(theme) for pdf slides`
+
+
+The `strict` option enables more advanced options (e.g., nested lists)
+
+Let us read the fuel efficiency data that is shipped with Stata
+
+```s
+sysuse auto, clear
+ds
+su
+```
+
+
+If we want to suppress the Stata command and the output, simply add a forward
+slash after the s.  Let's enter a such a code block with `quietly` in front of
+all Stata commands that produce output, and then reference the results.
+
+
+```s/
+quietly: su price
+local mu_price = r(mean)
+local sd_price = r(sd)
+quietly: su mpg
+local mu_mpg = r(mean)
+local sd_mpg = r(sd)
+```
+
+The mean value of price is `s `mu_price'` and the mean of miles per gallon (mpg)
+is `s `mu_mpg'`.
+
+
+
+It is also possible to include Mata and R code chunks, and to include bibliographies (with LaTeX).
+
+
+
+### **Results**
+
+To study how fuel efficiency depends on weight it is useful to
+transform the dependent variable from "miles per gallon" to
+"gallons per 100 miles"
+
+```s
+gen gphm = 100/mpg
+```
+
+We then obtain a more linear relationship
+
+### Plots
+
+
+```s
+twoway scatter gphm weight || lfit gphm weight ///
+  , ytitle(Gallons per Mile) legend(off)
+graph export auto.png, width(500) replace
+```
+
+![Figure: Fuel Efficiency](auto.png)
+
+
+### Tables
+
+Copy soc example.  Talk about `tabout` and simply exporting to csv/excel.  `putdocx` example from website.
+
+There are several options
+
+
+| **Variable**     | **Mean**                 | **SD**                |
+|:-----------------|:------------------------:|----------------------:|
+| (left justified) | (centered)               | (right justified)     |
+| **Miles per gallon** | `s %4.2f `mu_mpg'` |  `s %4.2f `sd_mpg'` |
+| **Price** | `s %4.2f `mu_price'` |  `s %4.2f `sd_price'` |
+
+
+
+Another option is to use [putdocx](https://www.stata.com/stata-news/news32-3/spotlight-putdocx/).
+
+```s
+quietly regress price mpg
+estimates store model1
+quietly regress price mpg i.foreign
+estimates store model2
+estimates table model1 model2, b(%10.3f) star stats(N r2 r2_a) ///
+    varlabel allbaselevels 
+putdocx begin
+putdocx table table1 = etable
+putdocx save table1
+```
+
+Finally (and less optimally), you can also use [tabout](http://tabout.net.au/downloads/tabout_user_guide.pdf)
+for descriptive and (joint/conditional) distribution tables, but not for regression models.  The options here
+are to either insert raw text (not in a table format), or output an HTML file and then save it as a Word docx.
