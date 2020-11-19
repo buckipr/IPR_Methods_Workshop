@@ -15,5 +15,5 @@ This folder includes materials presented at the IPR Methods Workshop
 * 11/12:  Data Carpentry in R with dplyr
 * 11/19:  Data Visualization in R with ggplot
 * 11/26:  Eating Mashed Potatoes with R and Gravy
-* 12/03: Creating Maps in R
+
 
