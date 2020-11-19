@@ -12,6 +12,6 @@
 * 10/29:  [Computer Simulation and Introduction to the Simulation Innovation and Modeling Center @ OSU](https://github.com/buckipr/IPR_Methods_Workshop/tree/main/Fall_2020/10_29_Simulation)
 * 11/05:  [Data Archiving](https://github.com/buckipr/IPR_Methods_Workshop/raw/main/Fall_2020/11_05_data_archiving.pptx)
 * 11/12:  Data Carpentry in R with dplyr
-* 11/19:  Data Visualization in R with ggplot
+* 11/19:  [Data Visualization in R with ggplot](https://github.com/buckipr/IPR_Methods_Workshop/tree/main/Fall_2020/11_19_ggplot2)
 * 11/26:  Eating Mashed Potatoes with R and Gravy
 
