@@ -24,6 +24,7 @@ This folder includes materials presented at the IPR Methods Workshop
   - analyzing information from the web
   - [Book used in Computational Social Sciences with more ideas](https://www.cs.cornell.edu/home/kleinber/networks-book/)
   - text mining; natural language processing
+  - Tools for Working with Big Data for Social Science
 
 
 May 5-8 PAA
