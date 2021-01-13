@@ -1,20 +1,20 @@
-# IPR_Methods_Workshop
+# IPR Methods Workshop
 This folder includes materials presented at the IPR Methods Workshop
 
-# Spring 2021 Schedule
+## Spring 2021 Schedule
 
-*we are meeting biweekly this semester)*
+*we are meeting biweekly this semester*
 
 * 01/21: Introduction to GitHub
 * 02/04: Statistical Analyses with Python
 * 02/18: Academic Articles with R Markdown (pdf)
 * 03/04: Academic Articles with R Markdown (MS Word)
 * 03/18: Example of Reproducible Research
-* 04/01: No session -- OSU Instructional Break
+* 04/01: OSU Instructional Break (no session)
 * 04/15: Introduction to Basecamp
 
 
-# Fall 2020 Schedule
+## Fall 2020 Schedule
 
 * 09/10:  [Using GitHub to Facilitate Reproducible Research](https://github.com/buckipr/IPR_Methods_Workshop/blob/main/Fall_2020/09_10_github.pdf)
 * 09/17:  [Dynamic Documents with R Markdown](https://github.com/buckipr/IPR_Methods_Workshop/tree/main/Fall_2020/09_17_RMarkdown)
