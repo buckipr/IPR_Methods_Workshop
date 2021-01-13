@@ -13,7 +13,7 @@ This folder includes materials presented at the IPR Methods Workshop
 * 04/01: No session -- OSU Instructional Break
 * 04/15: Introduction to Basecamp
 
-* 
+
 # Fall 2020 Schedule
 
 * 09/10:  [Using GitHub to Facilitate Reproducible Research](https://github.com/buckipr/IPR_Methods_Workshop/blob/main/Fall_2020/09_10_github.pdf)
