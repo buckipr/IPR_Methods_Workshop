@@ -1,33 +1,19 @@
 # IPR_Methods_Workshop
 This folder includes materials presented at the IPR Methods Workshop
 
-# Potential Topics for Spring 2021 (dates are just randomly assigned)
+# Spring 2021 Schedule
 
-* 01/14: (first week of classes)
-* 01/21: Maps (multiple sessions for R and Stata; Spatial Models in R)
-* 01/28: Python: Machine Learning (multiple sessions?); Stan; Regression Analysis
-* 02/04: LaTeX
-* 02/11: Using GitHub with RStudio
-* 02/18: Multiple Imputation in Stata
-* 02/25: (instructional break on 02/23 & 02/24)
-* 03/04: (final exams for first session?)
-* 03/11: Producing Research Articles for Word using RMarkdown (citations with Zotero/EndNote)
-* 03/18: Stan
-* 03/25: Mplus (SEM in Stata)
-* 04/01: Programming in Stata
-* 04/08: Setting up Web Pages (R Shiny Apps?)
-* 04/15: Agent-Based Models with NetLogo
-* 04/22: (last week of classes)
-* Other possible session
-  - didactic sessions on statistics  (maximum likelihood; Bayesian statistics; networks; 
-  relative distribution methods; model averaging)
-  - analyzing information from the web
-  - [Book used in Computational Social Sciences with more ideas](https://www.cs.cornell.edu/home/kleinber/networks-book/)
-  - text mining; natural language processing
-  - Tools for Working with Big Data for Social Science
+*we are meeting biweekly this semester)*
 
+* 01/21: Introduction to GitHub
+* 02/04: Statistical Analyses with Python
+* 02/18: Academic Articles with R Markdown (pdf)
+* 03/04: Academic Articles with R Markdown (MS Word)
+* 03/18: Example of Reproducible Research
+* 04/01: No session -- OSU Instructional Break
+* 04/15: Introduction to Basecamp
 
-May 5-8 PAA
+* 
 # Fall 2020 Schedule
 
 * 09/10:  [Using GitHub to Facilitate Reproducible Research](https://github.com/buckipr/IPR_Methods_Workshop/blob/main/Fall_2020/09_10_github.pdf)
