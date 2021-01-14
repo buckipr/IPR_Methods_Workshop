@@ -5,13 +5,13 @@ This folder includes materials presented at the IPR Methods Workshop
 
 *we are meeting biweekly this semester*
 
-* 01/21: Introduction to GitHub
+* 01/21: Overview of Open Science and the Role of GitHub
 * 02/04: Statistical Analyses with Python
-* 02/18: Academic Articles with R Markdown (pdf)
-* 03/04: Academic Articles with R Markdown (MS Word)
-* 03/18: Example of Reproducible Research
+* 02/18: Example of Reproducible Research
+* 03/04: Exporting Stata Results to MS Word
+* 03/18: To be determined
 * 04/01: OSU Instructional Break (no session)
-* 04/15: Introduction to Basecamp
+* 04/15: To be determined
 
 
 ## Fall 2020 Schedule
