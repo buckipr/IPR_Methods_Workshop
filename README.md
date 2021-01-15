@@ -9,9 +9,9 @@ This folder includes materials presented at the IPR Methods Workshop
 * 02/04: Statistical Analyses with Python
 * 02/18: Example of Reproducible Research
 * 03/04: Exporting Stata Results to MS Word
-* 03/18: To be determined
+* 03/18: Extraterrestrial Adventure: JupyterLab & Notebooks
 * 04/01: OSU Instructional Break (no session)
-* 04/15: To be determined
+* 04/15: Using the Atom Text Editor for Running Code and Version Control
 
 
 ## Fall 2020 Schedule
