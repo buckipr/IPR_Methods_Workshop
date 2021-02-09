@@ -1,0 +1,24 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,mpg             ,  R-squared:         ,   0.652
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.637
+Method:          ,Least Squares   ,  F-statistic:       ,   43.70
+Date:            ,Tue, 09 Feb 2021,  Prob (F-statistic):,4.98e-16
+Time:            ,15:24:32        ,  Log-Likelihood:    , -195.35
+No. Observations:,    74          ,  AIC:               ,   398.7
+Df Residuals:    ,    70          ,  BIC:               ,   407.9
+Df Model:        ,     3          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+             ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Intercept    ,   39.6595,    2.236,   17.737, 0.000,   35.200,   44.119
+disp2[T.med] ,   -0.0706,    1.328,   -0.053, 0.958,   -2.720,    2.579
+disp2[T.high],    0.2595,    1.894,    0.137, 0.891,   -3.518,    4.037
+weight       ,   -0.0061,    0.001,   -6.344, 0.000,   -0.008,   -0.004
+Omnibus:      ,26.924,  Durbin-Watson:     ,   2.347
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  50.957
+Skew:         , 1.300,  Prob(JB):          ,8.61e-12
+Kurtosis:     , 6.124,  Cond. No.          ,2.20e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.2e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
