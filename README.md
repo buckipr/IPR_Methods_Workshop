@@ -6,9 +6,9 @@ This folder includes materials presented at the IPR Methods Workshop
 *we are meeting biweekly this semester*
 
 * 01/21: Overview of Open Science and the Role of GitHub
-* 02/04: Statistical Analyses with Python
-* 02/18: Example of Reproducible Research
-* 03/04: Exporting Stata Results to MS Word
+* 02/04: [Statistical Analyses with Python](https://github.com/buckipr/IPR_Methods_Workshop/blob/main/Spring_2021/02_04_Python_Stats/README.md)
+* 02/18: [Example of Reproducible Research](https://github.com/sinafala/svd-comp)
+* 03/04: [Exporting Stata Results to MS Word & Excel](https://github.com/buckipr/IPR_Methods_Workshop/blob/main/Spring_2021/03_04_export_Stata_results.do)
 * 03/18: Extraterrestrial Adventure: JupyterLab & Notebooks
 * 04/01: OSU Instructional Break (no session)
 * 04/15: Using the Atom Text Editor for Running Code and Version Control
